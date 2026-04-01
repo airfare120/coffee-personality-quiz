@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-nunito);
+  --font-playfair: var(--font-playfair);
+  --color-warm-brown: #B07D4E;
+  --color-warm-cream: #FFFDF9;
+  --color-warm-beige: #F5EFE6;
+  --color-warm-text: #3D2B1F;
+  --color-warm-muted: #9E8070;
+}
+
+body {
+  font-family: var(--font-nunito), Arial, sans-serif;
+  background: linear-gradient(135deg, #F5EFE6, #FDDBB4, #F0E0C8);
+  min-height: 100vh;
+}
