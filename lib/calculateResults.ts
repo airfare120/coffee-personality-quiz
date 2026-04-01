@@ -12,6 +12,8 @@ export function calculateResults(answers: PersonalityKey[]): Results {
     sweet: 0,
     relaxed: 0,
     deepworker: 0,
+    trendy: 0,
+    zen: 0,
   };
 
   for (const a of answers) {
